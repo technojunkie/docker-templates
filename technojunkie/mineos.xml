@@ -11,7 +11,7 @@
   </Description>
   <Registry>https://hub.docker.com/r/technojunkie/mineos-docker/</Registry>
   <GitHub>https://github.com/technojunkie/MineOS-Docker</GitHub>
-  <Repository>technojunkie/MineOS-Docker</Repository>
+  <Repository>technojunkie/mineos-docker</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
  <Environment>
