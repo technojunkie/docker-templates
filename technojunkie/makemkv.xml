@@ -1,0 +1,60 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @technojunkie
+ Watch 3
+  Star 3
+  Fork 4 limetech/docker-templates
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs
+Branch: master Find file Copy path
+docker-templates/limetech/PlexMediaServer.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2016-05-16</Date>
+  <Beta>False</Beta>
+  <Category>MediaApp:Video </Category>
+  <Name>Node-MakeMKV</Name>
+  <Project>https://blog.laslabs.com/projects/remote-makemkv/</Project>
+  <Changes>
+
+[center][font size=4]Node-MakeMKV Change Log[/font][/center]
+
+[font size=3]2016.05.16[/font]
+Initial upload
+
+  </Changes>
+  <Overview>
+    Node-MakeMKV is the successor to Remote-MakeMKV. The intent of this project is to provide a web front end for MakeMKV to allow for a headless ripping server.
+  </Overview>
+  <Description>
+    Node-MakeMKV is the successor to Remote-MakeMKV. The intent of this project is to provide a web front end for MakeMKV to allow for a headless ripping server.
+    [b][span style='color: #E80000;']Directions:[/span][/b][br]
+    [b]/config[/b] : this is where PMS will store it's databases and configuration.[br][br]
+    [b]Tip:[/b] You can add more volume mappings if you wish PMS has access to it.
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/technojunkie/node-makemkv/</Registry>
+  <GitHub>https://github.com/technojunkie/dockerapp-</GitHub>
+  <Repository>technojunkie/node-makemkv</Repository>
+  <Support></Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/Node-MakeMKV</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:32400]/web/index.html</WebUI>
+  <Banner></Banner>
+  <Icon></Icon>
+</Containers>
