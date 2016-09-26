@@ -10,7 +10,7 @@
     [b][span style='color: #E80000;']IMPORTANT - Open Advanced View to Set your PASSWORD!!![/b][/span][br][br]
   </Description>
   <Registry>https://hub.docker.com/r/technojunkie/mineos-docker/</Registry>
-  <GitHub>https://github.com/technojunkie/MineOS-Docker</GitHub>
+  <GitHub>https://github.com/technojunkie/mineos-docker</GitHub>
   <Repository>technojunkie/mineos-docker</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
