@@ -6,9 +6,9 @@
   <Description>
    RipUtil includes ripping utilities for extracting DVD and Bluray video
   </Description>
-  <Registry>https://hub.docker.com/r/technojunkie/riputils-docker/</Registry>
-  <GitHub>https://github.com/technojunkie/riputils-docker</GitHub>
-  <Repository>technojunkie/riputils-docker</Repository>
+  <Registry>https://hub.docker.com/r/technojunkie/riputil-docker/</Registry>
+  <GitHub>https://github.com/technojunkie/riputil-docker</GitHub>
+  <Repository>technojunkie/riputil-docker</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
  <Environment>
