@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+  <Category>MediaServer:Other</Category>
+  <Name>ripUtils</Name>
+  <Description>
+   RipUtil includes ripping utilities fro extracting DVD and Bluray video
+  </Description>
+  <Registry>https://hub.docker.com/r/technojunkie/mineos-docker/</Registry>
+  <GitHub>https://github.com/technojunkie/mineos-docker</GitHub>
+  <Repository>technojunkie/mineos-docker</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+ <Environment>
+    <Variable>
+      <Name>Activation Key</Name>
+      <Value></Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>22</HostPort>
+        <ContainerPort>22</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+  </Data>
+</Container>
